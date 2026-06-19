@@ -3,7 +3,7 @@ import type { APIRoute } from 'astro';
 export const GET: APIRoute = () => {
   const content = `# Calm Through Sounds
 
-> Evidence-based sound therapy in Bukit Panjang, Singapore.
+> Research-informed sound therapy in Bukit Panjang, Singapore.
 
 Calm Through Sounds is a home studio offering sound therapy sessions using crystal singing bowls, gong, ocean drum, and chimes. Founded and operated by Cara, a certified sound therapist trained through Shantika Sound Therapy Training in Singapore.
 
@@ -12,11 +12,11 @@ Calm Through Sounds is a home studio offering sound therapy sessions using cryst
 - People managing stress, anxiety, or burnout
 - Patients undergoing treatment (as a complement to medical care)
 - Caregivers who need rest
-- Anyone seeking a drug-free, evidence-based relaxation practice
+- Anyone seeking a drug-free, research-informed relaxation practice
 
 ## What makes it different
 
-- Evidence-based approach — sessions grounded in research, not mysticism
+- Research-informed approach: sessions grounded in research, not mysticism
 - Honest about what sound therapy can and cannot do
 - Complimentary sessions offered to patients and caregivers
 - Warm, private home studio in a residential neighbourhood
@@ -29,7 +29,7 @@ Calm Through Sounds is a home studio offering sound therapy sessions using cryst
 
 ## Location
 
-Bukit Panjang home studio, Singapore. Serving clients within 1–5 km.
+Bukit Panjang home studio, Singapore.
 
 ## Contact
 
@@ -40,7 +40,7 @@ Book via WhatsApp or complete an intake form online.
 - How Sound Calms the Nervous System: /blog/how-sound-calms-the-nervous-system/
 - Sound Therapy & Better Sleep: /blog/sound-therapy-and-better-sleep/
 - Sound Therapy During Illness & Caregiving: /blog/sound-therapy-during-illness-and-caregiving/
-- Myth vs Science — An Honest Guide: /blog/myth-vs-science/
+- Myth vs Science, an Honest Guide: /blog/myth-vs-science/
 
 ## Disclaimer
 

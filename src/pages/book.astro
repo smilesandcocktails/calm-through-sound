@@ -15,7 +15,7 @@ const schema = {
 ---
 
 <BaseLayout
-  title="Book a Session — Calm Through Sounds"
+  title="Book a Session | Calm Through Sounds"
   description="Book a sound therapy session with Cara in Bukit Panjang, Singapore. Choose a 30-minute taster or 60-minute signature session and reserve your slot instantly."
   schema={schema}
 >
@@ -119,17 +119,6 @@ const schema = {
     }
     .booking-notice strong { color: var(--ink); }
 
-    /* CALENDLY */
-    .calendly-wrap {
-      padding: 0 clamp(20px, 5vw, 60px) clamp(52px, 8vw, 96px);
-      max-width: 1100px; margin: 0 auto;
-      scroll-margin-top: 80px;
-    }
-    .calendly-heading { text-align: center; margin-bottom: 28px; }
-    .calendly-heading h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 500; color: var(--ink); margin: 0 0 6px; }
-    .calendly-heading p { color: var(--bark-soft); font-size: .9rem; margin: 0; }
-    .calendly-inline-widget { border-radius: 16px; overflow: hidden; box-shadow: 0 8px 40px -12px rgba(63,55,46,.18); }
-
     /* INTAKE */
     .intake-note {
       text-align: center;
@@ -193,7 +182,7 @@ const schema = {
       <div class="scard signature">
         <span class="label">60 minutes · 1 or 2–4 people</span>
         <h2>Signature Session</h2>
-        <p class="desc">The full sound journey — gong, crystal bowl, ocean drum and chimes. Space to fully arrive, settle and rest. Also available as a small group session.</p>
+        <p class="desc">The full sound journey: gong, crystal bowl, ocean drum and chimes. Space to fully arrive, settle and rest. Also available as a small group session.</p>
         <ul class="features">
           <li>Full instrument set</li>
           <li>Private ($120) or small group ($180)</li>
@@ -203,7 +192,7 @@ const schema = {
           <div class="amt">$120</div>
           <div class="per">private · $180 group (2–4)</div>
         </div>
-        <a class="book-btn" href="#calendly" onclick="document.getElementById('calendly').scrollIntoView({behavior:'smooth'});return false;">
+        <a class="book-btn" href="https://calendly.com/calmthroughsounds/book-a-session" target="_blank" rel="noopener">
           Reserve Signature Session &rarr;
         </a>
       </div>
@@ -214,21 +203,8 @@ const schema = {
   <!-- Studio address notice -->
   <div class="booking-notice">
     <div class="inner">
-      <strong>Studio address:</strong> Shared after booking confirmation. The home studio is in Bukit Panjang — I serve clients within roughly 1–5&nbsp;km.
+      <strong>Studio address:</strong> Shared after booking confirmation. The home studio is in Bukit Panjang.
     </div>
-  </div>
-
-  <!-- Calendly embed — Signature Session -->
-  <div class="calendly-wrap" id="calendly">
-    <div class="calendly-heading">
-      <h2>Reserve your Signature Session</h2>
-      <p>Pick a date and time below. You'll receive an instant confirmation by email.</p>
-    </div>
-    <div
-      class="calendly-inline-widget"
-      data-url="https://calendly.com/calmthroughsounds/new-meeting"
-      style="min-width:320px;height:700px;"
-    ></div>
   </div>
 
   <!-- Intake form -->
@@ -241,6 +217,4 @@ const schema = {
     <p>&copy; {new Date().getFullYear()} Calm Through Sounds &middot; <a href="/">Home</a></p>
   </footer>
 
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </BaseLayout>

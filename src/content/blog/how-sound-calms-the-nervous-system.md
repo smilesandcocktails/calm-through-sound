@@ -1,42 +1,42 @@
 ---
 title: "How Sound Calms the Nervous System"
-description: "A plain-English, evidence-based look at how sound therapy helps shift the body out of fight-or-flight — covering the stress response, cortisol, and heart-rate variability."
+description: "A plain-English, research-informed look at how sound therapy helps shift the body out of fight-or-flight, covering the stress response, cortisol, and heart-rate variability."
 pubDate: 2026-06-12
 tag: "The body"
 readTime: "5 min read"
 heroImage: "/img-hands.jpg"
 ogTitle: "How Sound Calms the Nervous System"
-ogDescription: "What the research shows about sound, the stress response, cortisol and heart-rate variability — explained simply."
+ogDescription: "What the research shows about sound, the stress response, cortisol and heart-rate variability, explained simply."
 keywords: "sound therapy, nervous system, stress, cortisol, heart rate variability, relaxation, Singapore"
 ---
 
-If you've ever felt your shoulders drop and your breathing slow during a piece of music, you've already met the idea behind sound therapy. Sound doesn't work by magic — it works through your nervous system, the same system that decides whether your body is bracing for a threat or settling into rest.
+If you've ever felt your shoulders drop and your breathing slow during a piece of music, you've already met the idea behind sound therapy. Sound doesn't work by magic; it works through your nervous system, the same system that decides whether your body is bracing for a threat or settling into rest.
 
 ## Two gears: stress and rest
 
-Your autonomic nervous system runs largely in the background, and it has two broad modes. The **sympathetic** branch is your accelerator — the "fight or flight" response that raises your heart rate, tightens muscles and releases stress hormones when you're under pressure. The **parasympathetic** branch is the brake — the "rest and digest" state where your heart rate eases, digestion resumes and your body repairs itself.
+Your autonomic nervous system runs largely in the background, and it has two broad modes. The **sympathetic** branch is your accelerator: the "fight or flight" response that raises your heart rate, tightens muscles and releases stress hormones when you're under pressure. The **parasympathetic** branch is the brake: the "rest and digest" state where your heart rate eases, digestion resumes and your body repairs itself.
 
 Modern life keeps many of us idling in the stress gear far longer than nature intended. The goal of a sound session isn't to "fix" anything dramatic; it's to give your body a clear, unhurried invitation to shift into the rest gear, where recovery happens.
 
 ## What sound does to stress markers
 
-This is where the research gets interesting. A 2020 systematic review and meta-analysis by de Witte and colleagues looked across many studies and found that music-based interventions were associated with a measurable reduction in physiological arousal — including **lower cortisol** (a key stress hormone), a **slower heart rate**, and reduced blood pressure.<sup>[<a href="#ref1">1</a>]</sup> In other words, the calm you feel isn't only in your head; it shows up in the body's chemistry too.
+This is where the research gets interesting. A 2020 systematic review and meta-analysis by de Witte and colleagues looked across many studies and found that music-based interventions were associated with a measurable reduction in physiological arousal: including **lower cortisol** (a key stress hormone), a **slower heart rate**, and reduced blood pressure.<sup>[<a href="#ref1">1</a>]</sup> In other words, the calm you feel isn't only in your head; it shows up in the body's chemistry too.
 
-Studies on the kinds of instruments used in sound therapy point the same way. In a 2017 study, people who took part in a singing-bowl sound meditation reported significantly less tension, anger, fatigue and depressed mood afterwards — and first-timers experienced the largest drop in tension.<sup>[<a href="#ref2">2</a>]</sup>
+Studies on the kinds of instruments used in sound therapy point the same way. In a 2017 study, people who took part in a singing-bowl sound meditation reported significantly less tension, anger, fatigue and depressed mood afterwards, and first-timers experienced the largest drop in tension.<sup>[<a href="#ref2">2</a>]</sup>
 
 ## The heart-rate-variability clue
 
-One of the most useful signals scientists watch is **heart-rate variability (HRV)** — the tiny, natural variation in time between heartbeats. Higher variability generally reflects a relaxed, adaptable nervous system, while low variability is linked to stress and strain. A 2023 randomised controlled trial found that exposure to Tibetan singing-bowl sound prompted an acute relaxation response, including an **increase in heart-rate variability**.<sup>[<a href="#ref3">3</a>]</sup> That's a physical fingerprint of the body easing off the accelerator.
+One of the most useful signals scientists watch is **heart-rate variability (HRV)**: the tiny, natural variation in time between heartbeats. Higher variability generally reflects a relaxed, adaptable nervous system, while low variability is linked to stress and strain. A 2023 randomised controlled trial found that exposure to Tibetan singing-bowl sound prompted an acute relaxation response, including an **increase in heart-rate variability**.<sup>[<a href="#ref3">3</a>]</sup> That's a physical fingerprint of the body easing off the accelerator.
 
-<div class="callout">Think of a sound session as a guided runway for your nervous system to land. You lie down, the sounds give your attention something gentle to rest on, and your body does what it already knows how to do — it relaxes.</div>
+<div class="callout">Think of a sound session as a guided runway for your nervous system to land. You lie down, the sounds give your attention something gentle to rest on, and your body does what it already knows how to do: it relaxes.</div>
 
 ## Why this matters for everyday stress
 
-When your body spends a little more time in the rest state, the knock-on effects are the things people most often come to me for: looser muscles, a quieter mind, and the sense of having somewhere to set the day's weight down. None of this requires belief in anything mystical — just a willingness to lie still and let sound do the gentle work of cueing relaxation.
+When your body spends a little more time in the rest state, the knock-on effects are the things people most often come to me for: looser muscles, a quieter mind, and the sense of having somewhere to set the day's weight down. None of this requires belief in anything mystical, just a willingness to lie still and let sound do the gentle work of cueing relaxation.
 
 ## An honest note on the evidence
 
-I want to be straight with you, because trust matters more than hype. Much of this research is still early-stage, sample sizes are often small, and sound therapy is a **complementary wellbeing practice — not a medical treatment**. It sits alongside your healthcare, never in place of it. What the evidence supports is real but modest: sound can be a reliable, low-risk way to help a stressed body relax. For me, that's more than enough reason to offer it well.
+I want to be straight with you, because trust matters more than hype. Much of this research is still early-stage, sample sizes are often small, and sound therapy is a **complementary wellbeing practice, not a medical treatment**. It sits alongside your healthcare, never in place of it. What the evidence supports is real but modest: sound can be a reliable, low-risk way to help a stressed body relax. For me, that's more than enough reason to offer it well.
 
 <div class="refs">
 <h2>References</h2>

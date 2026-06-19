@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
@@ -305,6 +306,9 @@ const schema = {
 
 <!-- IMAGE BREAK -->
 <section class="imgbreak" style="background-image:url('/img-studio.jpg')"><p class="line">Minutes from your doorstep in Bukit Panjang.</p></section>
+
+<!-- NEWSLETTER -->
+<NewsletterSignup />
 
 <!-- BLOG -->
 <section id="blog">

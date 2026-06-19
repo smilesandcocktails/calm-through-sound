@@ -25,7 +25,7 @@ const schema = {
   dateModified: pubDate.toISOString().split('T')[0],
   inLanguage: 'en-SG',
   author: { '@type': 'Person', name: 'Cara', jobTitle: 'Certified Sound Therapist' },
-  publisher: { '@type': 'Organization', name: 'Calm Through Sound', url: 'https://calmthroughsound.com' },
+  publisher: { '@type': 'Organization', name: 'Calm Through Sounds', url: 'https://calmthroughsound.com' },
   url: `https://calmthroughsound.com/blog/${slug}/`,
   keywords: keywords ?? '',
 };
@@ -40,7 +40,7 @@ const navLinks = [
 ];
 ---
 
-<BaseLayout title={`${title} | Calm Through Sound`} description={description} ogType="article" ogTitle={ogTitle ?? title} ogDescription={ogDescription ?? description} schema={schema}>
+<BaseLayout title={`${title} | Calm Through Sounds`} description={description} ogType="article" ogTitle={ogTitle ?? title} ogDescription={ogDescription ?? description} schema={schema}>
   <style>
     .nav { position: sticky; top: 0; z-index: 50; background: rgba(250,246,239,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--tan); }
     .hero-blog { background: radial-gradient(900px 400px at 85% -10%, rgba(154,143,128,.18), transparent 60%), var(--sand); padding: 54px 0 44px; }
@@ -94,7 +94,7 @@ const navLinks = [
 
   <header class="nav">
     <div class="nav-inner">
-      <a class="brand" href="/"><span class="dot"></span>Calm Through Sound</a>
+      <a class="brand" href="/"><span class="dot"></span>Calm Through Sounds</a>
       <button class="hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
         <span></span><span></span><span></span>
       </button>
@@ -135,7 +135,7 @@ const navLinks = [
   <footer>
     <div class="wrap">
       <div>
-        <div class="brand" style="color:#fff;margin-bottom:8px"><span class="dot"></span>Calm Through Sound</div>
+        <div class="brand" style="color:#fff;margin-bottom:8px"><span class="dot"></span>Calm Through Sounds</div>
         <div>Evidence-based sound therapy · Bukit Panjang, Singapore</div>
       </div>
       <div>
@@ -149,7 +149,7 @@ const navLinks = [
   </footer>
   <div class="disclaimer">
     <div class="wrap">
-      Calm Through Sound provides sound therapy as a complementary relaxation and wellness practice. It is not medical, psychological, or psychiatric treatment, and is not a substitute for professional healthcare. If you have a medical or mental-health condition, please consult your doctor. Results vary from person to person.
+      Calm Through Sounds provides sound therapy as a complementary relaxation and wellness practice. It is not medical, psychological, or psychiatric treatment, and is not a substitute for professional healthcare. If you have a medical or mental-health condition, please consult your doctor. Results vary from person to person.
     </div>
   </div>
 </BaseLayout>

@@ -1,11 +1,11 @@
 import type { APIRoute } from 'astro';
 
 export const GET: APIRoute = () => {
-  const content = `# Calm Through Sound
+  const content = `# Calm Through Sounds
 
 > Evidence-based sound therapy in Bukit Panjang, Singapore.
 
-Calm Through Sound is a home studio offering sound therapy sessions using crystal singing bowls, gong, ocean drum, and chimes. Founded and operated by Cara, a certified sound therapist trained through Shantika Sound Therapy Training in Singapore.
+Calm Through Sounds is a home studio offering sound therapy sessions using crystal singing bowls, gong, ocean drum, and chimes. Founded and operated by Cara, a certified sound therapist trained through Shantika Sound Therapy Training in Singapore.
 
 ## Who it's for
 

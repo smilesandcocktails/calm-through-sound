@@ -28,7 +28,7 @@ It's easy to dismiss "just relaxation" as a small thing. It isn't. When someone 
 
 Caregivers are the quiet engine of every recovery, and they're often the last to rest. While most research has focused on patients, the broader evidence on sound and stress is encouraging: a 2020 meta-analysis found music-based interventions were associated with reduced cortisol, lower heart rate and lower blood pressure — the physiology of a body letting go of tension.<sup>[<a href="#ref2">2</a>]</sup> Caregivers carry exactly that kind of chronic, low-grade stress, and they deserve an hour that is only about them.
 
-This is the thinking behind the free sessions Calm Through Sound offers to patients and caregivers. Rest shouldn't be a luxury reserved for people with energy to spare.
+This is the thinking behind the free sessions Calm Through Sounds offers to patients and caregivers. Rest shouldn't be a luxury reserved for people with energy to spare.
 
 ## How to approach it safely
 
@@ -44,7 +44,7 @@ If you or someone you love is in treatment, a few simple principles keep sound t
 
 <div class="author-card">
 <div class="av"></div>
-<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sound, a home studio in Bukit Panjang, Singapore. She offers complimentary sessions to patients and caregivers through the studio's giving-back programme.</p>
+<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sounds, a home studio in Bukit Panjang, Singapore. She offers complimentary sessions to patients and caregivers through the studio's giving-back programme.</p>
 </div>
 
 <div class="disc">This article is for general information and wellbeing education only. Sound therapy is a complementary relaxation practice and is not medical, psychological or psychiatric treatment, nor a substitute for professional healthcare. Always follow the advice of your medical team.</div>

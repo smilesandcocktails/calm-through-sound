@@ -1,0 +1,90 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  ogType?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  schema?: object;
+}
+
+const {
+  title,
+  description,
+  ogType = 'website',
+  ogTitle,
+  ogDescription,
+  schema,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="author" content="Cara, Certified Sound Therapist" />
+  <link rel="canonical" href={canonicalURL} />
+
+  <meta property="og:type" content={ogType} />
+  <meta property="og:title" content={ogTitle ?? title} />
+  <meta property="og:description" content={ogDescription ?? description} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:locale" content="en_SG" />
+  <meta property="og:site_name" content="Calm Through Sound" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={ogTitle ?? title} />
+  <meta name="twitter:description" content={ogDescription ?? description} />
+
+  {schema && (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  )}
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/global.css" />
+</head>
+<body>
+  <slot />
+
+  <a class="wa-float" href="https://wa.me/65XXXXXXXX?text=Hi%20Cara%2C%20I'd%20like%20to%20book%20a%20sound%20therapy%20session" target="_blank" rel="noopener" title="Message on WhatsApp">🟢</a>
+
+  <slot name="scripts" />
+  <script>
+    (function () {
+      const toggle = document.getElementById('navToggle');
+      const menu = document.getElementById('navMenu');
+      if (!toggle || !menu) return;
+      function setOpen(o: boolean) {
+        menu!.classList.toggle('open', o);
+        toggle!.classList.toggle('open', o);
+        toggle!.setAttribute('aria-expanded', o ? 'true' : 'false');
+        toggle!.setAttribute('aria-label', o ? 'Close menu' : 'Open menu');
+      }
+      toggle.addEventListener('click', () => setOpen(!menu.classList.contains('open')));
+      menu.querySelectorAll('a').forEach(l => l.addEventListener('click', () => setOpen(false)));
+      window.addEventListener('resize', () => { if (window.innerWidth > 820) setOpen(false); });
+    })();
+
+    (function () {
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduce || !('IntersectionObserver' in window)) return;
+      const sel = '.statement p, section h2, .lead, .rcard, .icard, .twocol .c, .price .row, .post, .seeall, .giving li, .cred, details, .evnote';
+      const els = Array.from(document.querySelectorAll(sel));
+      els.forEach(el => el.classList.add('reveal'));
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+      els.forEach(el => io.observe(el));
+    })();
+  </script>
+</body>
+</html>

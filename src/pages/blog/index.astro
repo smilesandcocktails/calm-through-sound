@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title="Journal | Calm Through Sound"
+  description="Honest, evidence-based articles on how sound therapy affects the body and mind — what the research shows, and what it doesn't."
+>
+
+<style>
+  .hero-blog { background: var(--sand); padding: 64px 0 48px; }
+  .hero-blog h1 { font-size: clamp(2.4rem, 5vw, 4rem); }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; margin-top: 54px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .post { display: flex; flex-direction: column; background: var(--cream); border: 1px solid var(--tan); border-radius: var(--radius); overflow: hidden; transition: .2s; text-decoration: none; color: inherit; }
+  .post:hover { transform: translateY(-3px); box-shadow: 0 20px 44px -28px rgba(63,55,46,.5); border-color: var(--taupe); }
+  .post-top { padding: 26px 28px 0; }
+  .post-tag { font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: var(--taupe-d); }
+  .post h2 { font-size: 1.5rem; margin: 8px 0 10px; }
+  .post p { font-size: .96rem; color: var(--bark-soft); padding: 0 28px; margin: 0; }
+  .post-foot { margin-top: auto; padding: 18px 28px 24px; }
+  .post-foot span { display: inline-block; background: var(--ink); color: var(--cream); padding: 9px 18px; border-radius: 26px; font-weight: 700; font-size: .82rem; transition: .2s; }
+  .post:hover .post-foot span { background: var(--taupe-d); }
+  .post-date { font-size: .78rem; color: var(--taupe); margin-top: 6px; }
+</style>
+
+<div class="promo">&#10022;&nbsp;&nbsp;Founding-client rates — first two months</div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/"><span class="dot"></span>Calm Through Sound</a>
+    <button class="hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-menu" id="navMenu">
+      <nav>
+        <ul>
+          <li><a href="/#science">The Science</a></li>
+          <li><a href="/#sessions">Sessions</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="/#giving">Giving</a></li>
+          <li><a href="/blog/" style="color:var(--taupe-d)">Journal</a></li>
+          <li><a href="/#about">About</a></li>
+        </ul>
+      </nav>
+      <a class="nav-cta" href="/#contact">Book a session</a>
+    </div>
+  </div>
+</header>
+
+<div class="hero-blog">
+  <div class="wrap">
+    <span class="eyebrow">Reading room</span>
+    <h1>The science of sound, explained simply</h1>
+    <p class="lead">Honest, evidence-based articles on how sound affects the body and mind — what the research shows, and what it doesn't.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="grid">
+      {posts.map(post => (
+        <a class="post" href={`/blog/${post.id}/`}>
+          <div class="post-top">
+            <span class="post-tag">{post.data.tag}</span>
+            <h2 class="serif">{post.data.title}</h2>
+            <p class="post-date">{post.data.pubDate.toLocaleDateString('en-SG', { day: 'numeric', month: 'long', year: 'numeric' })} · {post.data.readTime}</p>
+          </div>
+          <p>{post.data.description}</p>
+          <span class="post-foot"><span>Read article &rarr;</span></span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="brand" style="color:#fff;margin-bottom:8px"><span class="dot"></span>Calm Through Sound</div>
+      <div>Evidence-based sound therapy · Bukit Panjang, Singapore</div>
+    </div>
+    <div>
+      <a href="/#science">The Science</a> &nbsp;·&nbsp;
+      <a href="/#sessions">Sessions</a> &nbsp;·&nbsp;
+      <a href="/#pricing">Pricing</a> &nbsp;·&nbsp;
+      <a href="/blog/">Journal</a> &nbsp;·&nbsp;
+      <a href="/#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+<div class="disclaimer">
+  <div class="wrap">
+    Calm Through Sound provides sound therapy as a complementary relaxation and wellness practice. It is not medical, psychological, or psychiatric treatment, and is not a substitute for professional healthcare.
+  </div>
+</div>
+</BaseLayout>

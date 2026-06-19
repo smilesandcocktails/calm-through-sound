@@ -1,0 +1,143 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Sound Therapy Session Booking",
+  "provider": {
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Calm Through Sound",
+    "url": "https://calmthroughsound.com"
+  },
+  "areaServed": { "@type": "City", "name": "Singapore" }
+};
+---
+
+<BaseLayout
+  title="Book a Session — Calm Through Sound"
+  description="Choose a date and time for your sound therapy session with Cara in Bukit Panjang, Singapore. Select a slot and confirm your booking instantly."
+  schema={schema}
+>
+  <style>
+    * { box-sizing: border-box; }
+
+    .book-nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--cream); border-bottom: 1px solid var(--tan);
+      padding: 0 clamp(20px, 5vw, 60px);
+      display: flex; align-items: center; justify-content: space-between; height: 68px;
+    }
+    .book-nav .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-weight: 600; letter-spacing: .08em; color: var(--ink); text-decoration: none; }
+    .book-nav .back { font-size: .85rem; color: var(--taupe-d); text-decoration: none; display: flex; align-items: center; gap: 6px; }
+    .book-nav .back:hover { color: var(--ink); }
+
+    .book-hero {
+      background: var(--sand);
+      padding: clamp(52px, 8vw, 96px) clamp(20px, 5vw, 60px) clamp(40px, 6vw, 72px);
+      text-align: center;
+    }
+    .book-hero .eyebrow { display: block; margin-bottom: 14px; }
+    .book-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 500; color: var(--ink); margin: 0 0 18px; line-height: 1.15; }
+    .book-hero p { max-width: 560px; margin: 0 auto; color: var(--bark-soft); font-size: 1.05rem; line-height: 1.7; }
+
+    .steps {
+      display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;
+      padding: clamp(40px, 6vw, 64px) clamp(20px, 5vw, 60px);
+      max-width: 900px; margin: 0 auto;
+    }
+    .step { display: flex; align-items: flex-start; gap: 14px; flex: 1 1 240px; max-width: 280px; }
+    .step-num { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 600; color: var(--tan); line-height: 1; flex-shrink: 0; }
+    .step-text { font-size: .9rem; color: var(--bark-soft); line-height: 1.6; }
+    .step-text strong { display: block; color: var(--ink); margin-bottom: 4px; font-size: .95rem; }
+
+    .calendly-wrap {
+      padding: 0 clamp(20px, 5vw, 60px) clamp(52px, 8vw, 96px);
+      max-width: 1100px; margin: 0 auto;
+    }
+    .calendly-notice {
+      background: var(--sand); border: 1px solid var(--tan); border-radius: 12px;
+      padding: 24px 28px; margin-bottom: 32px; font-size: .9rem; color: var(--bark-soft); line-height: 1.6;
+    }
+    .calendly-notice strong { color: var(--ink); }
+    .calendly-inline-widget { border-radius: 16px; overflow: hidden; box-shadow: 0 8px 40px -12px rgba(63,55,46,.18); }
+
+    .intake-note {
+      text-align: center;
+      padding: clamp(40px, 5vw, 60px) clamp(20px, 5vw, 60px) clamp(52px, 7vw, 80px);
+      background: var(--cream);
+    }
+    .intake-note p { max-width: 520px; margin: 0 auto 24px; color: var(--bark-soft); line-height: 1.7; }
+    .intake-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--ink); color: var(--cream);
+      padding: 14px 28px; border-radius: 32px;
+      font-family: 'Nunito Sans', sans-serif; font-weight: 700; font-size: .95rem;
+      text-decoration: none; transition: background .2s;
+    }
+    .intake-btn:hover { background: var(--bark); }
+
+    footer.book-footer {
+      background: var(--bark); color: var(--tan);
+      text-align: center; padding: 24px;
+      font-size: .82rem;
+    }
+    footer.book-footer a { color: var(--tan); }
+  </style>
+
+  <!-- Nav -->
+  <nav class="book-nav">
+    <a class="logo" href="/">Calm Through Sound</a>
+    <a class="back" href="/">&#8592; Back to home</a>
+  </nav>
+
+  <!-- Hero -->
+  <header class="book-hero">
+    <span class="eyebrow">Book a session</span>
+    <h1>Find your hour of calm</h1>
+    <p>Choose a date and time below. Once confirmed, you'll receive a booking email with everything you need to know before your first session.</p>
+  </header>
+
+  <!-- How it works -->
+  <div class="steps">
+    <div class="step">
+      <span class="step-num">1</span>
+      <div class="step-text"><strong>Pick a slot</strong>Select a date and time that suits you from the calendar below.</div>
+    </div>
+    <div class="step">
+      <span class="step-num">2</span>
+      <div class="step-text"><strong>Confirm your booking</strong>Enter your name and email. You'll get an instant confirmation.</div>
+    </div>
+    <div class="step">
+      <span class="step-num">3</span>
+      <div class="step-text"><strong>Complete the intake form</strong>New clients fill in a short, confidential form before the session.</div>
+    </div>
+  </div>
+
+  <!-- Calendly embed -->
+  <div class="calendly-wrap">
+    <div class="calendly-notice">
+      <strong>Studio address:</strong> Shared after booking confirmation. The home studio is in Bukit Panjang — I serve clients within roughly 1–5 km.
+    </div>
+    <!-- Replace YOUR-CALENDLY-USERNAME with your actual Calendly username -->
+    <div
+      class="calendly-inline-widget"
+      data-url="https://calendly.com/YOUR-CALENDLY-USERNAME"
+      style="min-width:320px;height:700px;"
+    ></div>
+  </div>
+
+  <!-- Intake form prompt -->
+  <div class="intake-note">
+    <p>Already booked? Please complete the short intake form before your first session so I can tailor the session to you.</p>
+    <a class="intake-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScP3C1CagJP2gTr3hiDV0XS3pl805LQptAeZ7h5kU-t80nDLQ/viewform" target="_blank" rel="noopener">Complete intake form &rarr;</a>
+  </div>
+
+  <footer class="book-footer">
+    <p>&copy; {new Date().getFullYear()} Calm Through Sound &middot; <a href="/">Home</a></p>
+  </footer>
+
+  <!-- Calendly widget script -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" slot="head" />
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</BaseLayout>

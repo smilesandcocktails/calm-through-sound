@@ -43,13 +43,13 @@ I want to be straight with you, because trust matters more than hype. Much of th
 <ol>
 <li id="ref1">de Witte M, Spruit A, van Hooren S, Moonen X, Stams GJ. <em>Effects of music interventions on stress-related outcomes: a systematic review and two meta-analyses.</em> Health Psychology Review, 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/31167611/" target="_blank" rel="noopener">PubMed</a></li>
 <li id="ref2">Goldsby TL, Goldsby ME, McWalters M, Mills PJ. <em>Effects of singing bowl sound meditation on mood, tension, and well-being.</em> Journal of Evidence-Based Integrative Medicine, 2017. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5871151/" target="_blank" rel="noopener">PMC</a></li>
-<li id="ref3">Stanhope J, Weinstein P. <em>The human health effects of singing bowls: a randomised controlled trial.</em> 2023. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9955072/" target="_blank" rel="noopener">PMC</a></li>
+<li id="ref3">Río-Álamos C, Montefusco-Siegmund R, Cañete T, Sotomayor J, Fernández-Teruel A. <em>Acute Relaxation Response Induced by Tibetan Singing Bowl Sounds: A Randomized Controlled Trial.</em> European Journal of Investigation in Health, Psychology and Education. 2023;13(2):317–330. <a href="https://doi.org/10.3390/ejihpe13020024" target="_blank" rel="noopener">doi:10.3390/ejihpe13020024</a></li>
 </ol>
 </div>
 
 <div class="author-card">
 <div class="av"></div>
-<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sounds, a home studio in Bukit Panjang, Singapore offering evidence-based sound therapy for people managing stress, treatment and recovery.</p>
+<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sounds, a home studio in Bukit Panjang, Singapore offering research-informed sound therapy for people managing stress, treatment and recovery.</p>
 </div>
 
 <div class="disc">This article is for general information and wellbeing education only. Sound therapy is a complementary relaxation practice and is not medical, psychological or psychiatric treatment, nor a substitute for professional healthcare. If you have a health condition, please consult your doctor.</div>

@@ -65,14 +65,14 @@ Holding sound therapy to a fair standard doesn't diminish it — it protects it.
 
 <div class="author-card">
 <div class="av"></div>
-<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sounds, a home studio in Bukit Panjang, Singapore. She practises an evidence-based, no-hype approach to sound and wellbeing.</p>
+<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sounds, a home studio in Bukit Panjang, Singapore. She practises an research-informed, no-hype approach to sound and wellbeing.</p>
 </div>
 
 <div class="disc">This article is for general information and wellbeing education only. Sound therapy is a complementary relaxation practice and is not medical, psychological or psychiatric treatment, nor a substitute for professional healthcare. If you have a health concern, please consult a qualified professional.</div>
 
 <div class="cta-card">
 <h2>Honest, grounded, genuinely restful</h2>
-<p>Experience evidence-based sound therapy in a warm home studio in Bukit Panjang.</p>
+<p>Experience Research-Informed Sound Therapy in a warm home studio in Bukit Panjang.</p>
 <a href="/#contact">Book a session</a>
 </div>
 

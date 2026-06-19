@@ -42,7 +42,7 @@ If poor sleep persists for weeks, leaves you exhausted during the day, or comes 
 
 <div class="author-card">
 <div class="av"></div>
-<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sounds, a home studio in Bukit Panjang, Singapore offering evidence-based sound therapy for stress, recovery and rest.</p>
+<p><strong>Cara</strong> is a certified sound therapist and the founder of Calm Through Sounds, a home studio in Bukit Panjang, Singapore offering research-informed sound therapy for stress, recovery and rest.</p>
 </div>
 
 <div class="disc">This article is for general information and wellbeing education only. Sound therapy is a complementary relaxation practice and is not medical treatment. If you have ongoing sleep problems or a sleep disorder, please consult your doctor.</div>

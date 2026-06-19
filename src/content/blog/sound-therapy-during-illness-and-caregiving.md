@@ -1,6 +1,6 @@
 ---
 title: "Sound Therapy During Illness & Caregiving"
-description: "What large research reviews suggest about music and sound for anxiety, pain and fatigue during treatment — and why caregivers deserve rest too. An honest, evidence-based guide."
+description: "What large research reviews suggest about music and sound for anxiety, pain and fatigue during treatment — and why caregivers deserve rest too. An honest, research-informed guide."
 pubDate: 2026-06-12
 tag: "During treatment"
 readTime: "6 min read"

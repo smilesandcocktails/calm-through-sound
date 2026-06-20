@@ -25,7 +25,6 @@ Calm Through Sounds is a home studio offering sound therapy sessions using cryst
 
 - Taster Session: 30 minutes, 1 person, $50 (July 2026 offer: $45)
 - Signature Session: 60 minutes, 1 person, $120 (July 2026 offer: $100)
-- Small Group: 60 minutes, 2–4 people, $40/person
 
 ## Location
 

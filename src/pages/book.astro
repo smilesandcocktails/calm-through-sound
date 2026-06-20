@@ -82,6 +82,9 @@ const schema = {
     .scard .per { font-size: .82rem; margin-top: 4px; }
     .scard.taster .per { color: var(--bark-soft); }
     .scard.signature .per { color: #cdbfae; }
+    .scard .orig { font-size: 1rem; text-decoration: line-through; margin-right: 6px; }
+    .scard.taster .orig { color: var(--bark-soft); }
+    .scard.signature .orig { color: rgba(255,255,255,.45); }
 
     .scard .book-btn {
       display: block; text-align: center; text-decoration: none;
@@ -170,7 +173,7 @@ const schema = {
           <li>No experience needed</li>
         </ul>
         <div class="price-tag">
-          <div class="amt">$45</div>
+          <div class="amt"><span class="orig">$50</span>$45*</div>
           <div class="per">per person</div>
         </div>
         <a class="book-btn" href="https://calendar.app.google/KUsHxUSGr7uqk7S57" target="_blank" rel="noopener">
@@ -185,11 +188,11 @@ const schema = {
         <p class="desc">The full sound journey: gong, crystal bowl, ocean drum and chimes. Space to fully arrive, settle and rest. Also available as a small group session.</p>
         <ul class="features">
           <li>Full instrument set</li>
-          <li>Private ($120) or small group ($180)</li>
+          <li>Private ($100*) or small group ($180)</li>
           <li>Trauma-aware facilitation</li>
         </ul>
         <div class="price-tag">
-          <div class="amt">$120</div>
+          <div class="amt"><span class="orig">$120</span>$100*</div>
           <div class="per">private · $180 group (2–4)</div>
         </div>
         <a class="book-btn" href="https://calendly.com/calmthroughsounds/book-a-session" target="_blank" rel="noopener">
@@ -204,6 +207,7 @@ const schema = {
   <div class="booking-notice">
     <div class="inner">
       <strong>Studio address:</strong> Shared after booking confirmation. The home studio is in Bukit Panjang.
+      <p style="margin: 8px 0 0; font-size: .8rem;">* Prices marked with an asterisk are valid 1–31 July 2026 only.</p>
     </div>
   </div>
 

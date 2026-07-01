@@ -18,6 +18,15 @@ const schema = {
   priceRange: '$$',
   slogan: 'Quiet the noise. Find your calm.',
 };
+
+const reviewSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Review',
+  itemReviewed: { '@type': 'HealthAndBeautyBusiness', name: 'Calm Through Sounds', areaServed: 'Bukit Panjang, Singapore' },
+  reviewBody: "I loved the gong bath. I felt so relaxed after the sound session and I can't wait to book my next session.",
+  author: { '@type': 'Person', name: 'Mel' },
+  reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+};
 ---
 
 <BaseLayout
@@ -25,7 +34,7 @@ const schema = {
   description="Calm Through Sounds offers research-informed sound therapy sessions in Bukit Panjang, Singapore for people managing stress, treatment, and recovery. Crystal singing bowls, gong, ocean drum and chimes."
   ogTitle="Calm Through Sounds | Research-Informed Sound Therapy in Bukit Panjang"
   ogDescription="Research-informed sound therapy for stress, treatment and recovery. A warm home studio in Bukit Panjang, Singapore."
-  schema={schema}
+  schema={[schema, reviewSchema]}
 >
 
 <style>
@@ -174,6 +183,7 @@ const schema = {
           <li><a href="#science">The Science</a></li>
           <li><a href="#sessions">Sessions</a></li>
           <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#giving">Giving</a></li>
           <li><a href="/blog/">Journal</a></li>
           <li><a href="#about">About</a></li>
@@ -277,6 +287,22 @@ const schema = {
         <div class="t"><span>60 minutes · 1 person</span><h3 class="serif">Signature Session</h3><p>The full sound journey, start to finish.</p></div>
         <div class="amt">$120</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi" id="testimonials">
+  <div class="wrap">
+    <span class="eyebrow">In their words</span>
+    <h2>What guests say</h2>
+    <div class="quotes">
+      <figure class="tcard">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <blockquote><p>"I loved the gong bath. I felt so relaxed after the sound session and I can't wait to book my next session."</p></blockquote>
+        <figcaption>Mel</figcaption>
+      </figure>
+      <!-- More testimonials get added here later as <figure class="tcard"> blocks. -->
     </div>
   </div>
 </section>

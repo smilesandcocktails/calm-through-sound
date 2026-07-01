@@ -77,3 +77,12 @@ footer a { color: #e2d4c2; }
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity .85s cubic-bezier(.2,.7,.2,1), transform .85s cubic-bezier(.2,.7,.2,1); }
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+
+/* TESTIMONIALS */
+.testi { text-align: center; }
+.testi .quotes { display: grid; gap: 22px; max-width: 760px; margin: 40px auto 0; }
+.tcard { background: var(--sand); border: 1px solid var(--tan); border-radius: 16px; padding: 34px 32px; margin: 0; }
+.tcard .stars { color: var(--taupe-d); letter-spacing: 4px; font-size: 1rem; margin-bottom: 16px; }
+.tcard blockquote { margin: 0; }
+.tcard blockquote p { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: clamp(1.3rem, 2.6vw, 1.7rem); line-height: 1.4; color: var(--bark); margin: 0; }
+.tcard figcaption { margin-top: 20px; font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; color: var(--taupe-d); }

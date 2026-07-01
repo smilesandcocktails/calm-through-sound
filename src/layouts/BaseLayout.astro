@@ -7,7 +7,7 @@ export interface Props {
   ogType?: string;
   ogTitle?: string;
   ogDescription?: string;
-  schema?: object;
+  schema?: object | object[];
 }
 
 const {
@@ -43,9 +43,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:title" content={ogTitle ?? title} />
   <meta name="twitter:description" content={ogDescription ?? description} />
 
-  {schema && (
-    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-  )}
+  {schema && (Array.isArray(schema) ? schema : [schema]).map((s) => (
+    <script type="application/ld+json" set:html={JSON.stringify(s)} />
+  ))}
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="sitemap" href="/sitemap-index.xml" />
@@ -76,7 +76,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     (function () {
       const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (reduce || !('IntersectionObserver' in window)) return;
-      const sel = '.statement p, section h2, .lead, .rcard, .icard, .twocol .c, .price .row, .post, .seeall, .giving li, .cred, details, .evnote';
+      const sel = '.statement p, section h2, .lead, .rcard, .icard, .twocol .c, .price .row, .tcard, .post, .seeall, .giving li, .cred, details, .evnote';
       const els = Array.from(document.querySelectorAll(sel));
       els.forEach(el => el.classList.add('reveal'));
       const io = new IntersectionObserver(entries => {

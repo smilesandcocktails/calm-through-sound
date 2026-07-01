@@ -27,6 +27,29 @@ const reviewSchema = {
   author: { '@type': 'Person', name: 'Mel' },
   reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
 };
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: 'What actually happens in a session?', acceptedAnswer: { '@type': 'Answer', text: "You arrive, we have a short chat about how you're feeling, then you lie down fully clothed on a mat with a blanket. For the next 30–60 minutes you simply rest while I play the instruments around you. Many people drift into a deeply relaxed, half-asleep state." } },
+    { '@type': 'Question', name: 'Is this religious or spiritual?', acceptedAnswer: { '@type': 'Answer', text: "No. Calm Through Sounds is a wellness practice focused on rest and stress relief, grounded in what research shows about the body and sound. You're welcome here whatever your beliefs." } },
+    { '@type': 'Question', name: 'Can it replace my medical treatment?', acceptedAnswer: { '@type': 'Answer', text: "Absolutely not, and I'll never suggest it can. Sound therapy is complementary. It works alongside your medical care to help you relax and cope, never in place of your doctor's advice." } },
+    { '@type': 'Question', name: 'Is it safe for everyone?', acceptedAnswer: { '@type': 'Answer', text: "It's gentle and suitable for most people. As a precaution, please let me know in advance if you are pregnant, have epilepsy or a seizure history, a pacemaker or other implant, severe mental-health conditions, or recent surgery, so we can adapt or check with your doctor first." } },
+    { '@type': 'Question', name: 'Where is the studio?', acceptedAnswer: { '@type': 'Answer', text: "It's a home studio in Bukit Panjang. I'll share the exact address when you book." } },
+  ],
+};
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Cara',
+  jobTitle: 'Certified Sound Therapist',
+  worksFor: { '@type': 'Organization', name: 'Calm Through Sounds' },
+  alumniOf: { '@type': 'Organization', name: 'Shantika Sound Therapy Training, Singapore' },
+  knowsAbout: ['Sound therapy', 'Sound baths', 'Stress reduction', 'Relaxation', 'Trauma-aware practice'],
+  areaServed: 'Bukit Panjang, Singapore',
+};
 ---
 
 <BaseLayout
@@ -34,7 +57,7 @@ const reviewSchema = {
   description="Calm Through Sounds offers research-informed sound therapy sessions in Bukit Panjang, Singapore for people managing stress, treatment, and recovery. Crystal singing bowls, gong, ocean drum and chimes."
   ogTitle="Calm Through Sounds | Research-Informed Sound Therapy in Bukit Panjang"
   ogDescription="Research-informed sound therapy for stress, treatment and recovery. A warm home studio in Bukit Panjang, Singapore."
-  schema={[schema, reviewSchema]}
+  schema={[schema, reviewSchema, faqSchema, personSchema]}
 >
 
 <style>
@@ -201,7 +224,8 @@ const reviewSchema = {
     <path d="M0 135 Q200 80 400 135 T800 135 T1200 135 T1600 135" opacity=".5"/>
     <path d="M0 155 Q200 100 400 155 T800 155 T1200 155 T1600 155" opacity=".3"/>
   </svg>
-  <h1 class="wordmark">C<span class="thin">A</span>LM</h1>
+  <h1 class="visually-hidden">Calm Through Sounds: research-informed sound therapy in Bukit Panjang, Singapore</h1>
+  <div class="wordmark" aria-hidden="true">C<span class="thin">A</span>LM</div>
   <div class="hero-cap">
     <span class="k serif">Gong &middot; Crystal bowl</span>
     <span class="k serif">Ocean drum &middot; Chimes</span>

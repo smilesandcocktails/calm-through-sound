@@ -1,7 +1,7 @@
 ---
 title: "Sound Therapy: Myth vs Science, an Honest Guide"
 description: "A clear-eyed, research-informed guide to what sound therapy can and can't do. What the research supports, what it doesn't, and how to spot over-claiming."
-pubDate: 2026-06-12
+pubDate: 2026-06-24
 tag: "Honest guide"
 readTime: "6 min read"
 heroImage: "/img-studio.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Sound Therapy & Better Sleep"
 description: "Struggling to wind down? Here's what the evidence, including a Cochrane review on music for insomnia, says about sound, relaxation and falling asleep more easily."
-pubDate: 2026-06-12
+pubDate: 2026-06-10
 tag: "Sleep"
 readTime: "5 min read"
 heroImage: "/img-hero.jpg"

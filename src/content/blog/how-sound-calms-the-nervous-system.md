@@ -1,7 +1,7 @@
 ---
 title: "How Sound Calms the Nervous System"
 description: "A plain-English, research-informed look at how sound therapy helps shift the body out of fight-or-flight, covering the stress response, cortisol, and heart-rate variability."
-pubDate: 2026-06-12
+pubDate: 2026-06-17
 tag: "The body"
 readTime: "5 min read"
 heroImage: "/img-hands.jpg"

@@ -13,6 +13,7 @@ const blog = defineCollection({
     ogTitle: z.string().optional(),
     ogDescription: z.string().optional(),
     keywords: z.string().optional(),
+    keyTakeaways: z.array(z.string()).optional(),
   }),
 });
 

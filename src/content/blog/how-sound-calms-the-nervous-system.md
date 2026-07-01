@@ -8,6 +8,10 @@ heroImage: "/img-hands.jpg"
 ogTitle: "How Sound Calms the Nervous System"
 ogDescription: "What the research shows about sound, the stress response, cortisol and heart-rate variability, explained simply."
 keywords: "sound therapy, nervous system, stress, cortisol, heart rate variability, relaxation, Singapore"
+keyTakeaways:
+  - 'Sound therapy works through your nervous system, helping the body shift from "fight-or-flight" into "rest-and-digest."'
+  - "Reviews link music-based sound to lower cortisol, a slower heart rate and reduced blood pressure."
+  - "It's a calming, low-risk complement to everyday rest, not a medical treatment."
 ---
 
 If you've ever felt your shoulders drop and your breathing slow during a piece of music, you've already met the idea behind sound therapy. Sound doesn't work by magic; it works through your nervous system, the same system that decides whether your body is bracing for a threat or settling into rest.

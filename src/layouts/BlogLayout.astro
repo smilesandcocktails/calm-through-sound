@@ -13,9 +13,10 @@ export interface Props {
   ogDescription?: string;
   keywords?: string;
   slug: string;
+  keyTakeaways?: string[];
 }
 
-const { title, description, tag, pubDate, readTime, heroImage, ogTitle, ogDescription, keywords, slug } = Astro.props;
+const { title, description, tag, pubDate, readTime, heroImage, ogTitle, ogDescription, keywords, slug, keyTakeaways } = Astro.props;
 
 const schema = {
   '@context': 'https://schema.org',
@@ -62,6 +63,11 @@ const navLinks = [
     .body sup a { color: var(--taupe-d); text-decoration: none; font-weight: 700; padding: 0 1px; }
     .body sup a:hover { text-decoration: underline; }
     .callout { background: var(--sand); border-left: 4px solid var(--taupe); border-radius: 10px; padding: 18px 22px; margin: 26px 0; font-size: 1rem; color: var(--bark-soft); }
+    .callout.takeaways { padding: 20px 24px; }
+    .callout.takeaways .tk-label { font-size: .74rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: var(--taupe-d); margin-bottom: 10px; }
+    .callout.takeaways ul { margin: 0 0 0 18px; }
+    .callout.takeaways li { margin-bottom: 8px; }
+    .callout.takeaways li:last-child { margin-bottom: 0; }
     .refs { background: var(--sand); border: 1px solid var(--tan); border-radius: 16px; padding: 26px 28px; margin: 40px 0; }
     .refs h2 { font-size: 1.3rem; margin-bottom: 12px; }
     .refs ol { margin-left: 18px; font-size: .92rem; color: var(--bark-soft); }
@@ -131,6 +137,14 @@ const navLinks = [
   )}
 
   <div class="body">
+    {keyTakeaways && keyTakeaways.length > 0 && (
+      <div class="callout takeaways">
+        <p class="tk-label">Key takeaways</p>
+        <ul>
+          {keyTakeaways.map((point) => <li>{point}</li>)}
+        </ul>
+      </div>
+    )}
     <slot />
   </div>
 

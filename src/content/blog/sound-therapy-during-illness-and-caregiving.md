@@ -8,6 +8,10 @@ heroImage: "/img-giving.jpg"
 ogTitle: "Sound Therapy During Illness & Caregiving"
 ogDescription: "What the evidence shows about sound and music for people in treatment and the people caring for them."
 keywords: "sound therapy cancer, music therapy anxiety, caregiver stress, palliative wellbeing, Singapore"
+keyTakeaways:
+  - "A Cochrane review of 81 studies found music interventions may ease anxiety, pain and fatigue in people with cancer, with no harm reported."
+  - "Rest and comfort matter during treatment, and caregivers, who carry chronic stress, benefit too."
+  - "Sound therapy is complementary; it works alongside medical care, never in place of it."
 ---
 
 Serious illness is exhausting in every direction at once: physically, emotionally, and mentally. So is caring for someone who is unwell. People in both roles often tell me the same thing: they're running on empty, and rest feels out of reach. Sound therapy can't change a diagnosis, but a growing body of research suggests it may help with the heaviness that surrounds one.

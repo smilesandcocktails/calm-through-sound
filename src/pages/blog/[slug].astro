@@ -25,6 +25,7 @@ const { Content } = await render(post);
   ogDescription={post.data.ogDescription}
   keywords={post.data.keywords}
   slug={post.id}
+  keyTakeaways={post.data.keyTakeaways}
 >
   <p slot="sub" class="sub">{post.data.description}</p>
   <Content />

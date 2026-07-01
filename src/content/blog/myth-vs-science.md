@@ -1,6 +1,6 @@
 ---
 title: "Sound Therapy: Myth vs Science, an Honest Guide"
-description: "A clear-eyed, evidence-based guide to what sound therapy can and can't do. What the research supports, what it doesn't, and how to spot over-claiming."
+description: "A clear-eyed, research-informed guide to what sound therapy can and can't do. What the research supports, what it doesn't, and how to spot over-claiming."
 pubDate: 2026-06-12
 tag: "Honest guide"
 readTime: "6 min read"
@@ -8,6 +8,10 @@ heroImage: "/img-studio.jpg"
 ogTitle: "Sound Therapy: Myth vs Science, an Honest Guide"
 ogDescription: "What sound therapy genuinely can and can't do: a trustworthy guide that respects both the research and your time."
 keywords: "sound therapy myths, sound healing evidence, does sound therapy work, 528 Hz, Singapore"
+keyTakeaways:
+  - "Supported by evidence: relaxation, less tension and anxiety, comfort during treatment, and better sleep."
+  - 'Not supported: curing disease, "detoxing" the body, or guaranteed results from one "magic" frequency.'
+  - "Trust providers who name their limits and never ask you to stop medical care."
 ---
 
 Wellness has a hype problem, and sound therapy is not immune to it. Browse online and you'll find everything from gentle, sensible claims to promises that a particular note can "cure" disease or "detox your cells." As a practitioner who happens to value evidence, I think the honest path is also the most reassuring one, so let's sort the signal from the noise.

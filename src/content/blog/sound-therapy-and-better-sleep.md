@@ -8,6 +8,10 @@ heroImage: "/img-hero.jpg"
 ogTitle: "Sound Therapy & Better Sleep"
 ogDescription: "What the research says about sound, relaxation and sleep quality, explained simply and honestly."
 keywords: "sound therapy sleep, music for insomnia, relaxation, winding down, Singapore"
+keyTakeaways:
+  - "Sound therapy creates the calm conditions for sleep rather than forcing it."
+  - "A Cochrane review found listening to music probably improves sleep quality (moderate-certainty evidence)."
+  - "Use it as the final step of a wind-down routine; see a doctor for persistent insomnia."
 ---
 
 Sleep is the body's most important repair window, yet it's the first thing to suffer when we're stressed. The cruel irony of a tired-but-wired night is that the harder you try to sleep, the more alert you feel. Sound therapy approaches the problem from the side, not head-on: instead of forcing sleep, it helps create the calm conditions in which sleep can arrive on its own.
